@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-flash-alert",
+  "main": "bootstrap-flash-alert.js",
+  "authors": [
+    "Leandro Vital <leandro.santos@ima.sp.gov.br>"
+  ],
+  "description": "Provides a simplified way to handle (add/display) flash messages",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
