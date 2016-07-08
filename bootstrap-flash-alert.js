@@ -71,6 +71,9 @@
 
             if (!this.options.title) {
                 $('strong', this.alertDiv).remove();
+                $('.header', this.alertDiv).css('float', 'none');
+                $('.header', this.alertDiv).css('display', 'inline-block');
+                $('.header', this.alertDiv).css('margin-right', '-40px');
             } else {
                 $('strong', this.alertDiv).css('display', 'inline-block');
                 $('strong', this.alertDiv).css('white-space', 'nowrap');
