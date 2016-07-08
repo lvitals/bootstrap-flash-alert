@@ -7,11 +7,17 @@
   "description": "Provides a simplified way to handle (add/display) flash messages",
   "license": "MIT",
   "homepage": "",
+  "keywords": ["util", "functional", "server", "client", "browser"],
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "animate.css": "~3.5.2",
+    "jquery": "1.9.1 - 2",
+  }
 }
